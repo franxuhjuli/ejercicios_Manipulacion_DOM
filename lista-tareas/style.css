@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.contenedor-principal {
+    height: 100vh;
+    background-image: url(images/fondo.jpg);
+    background-size: cover;
+    background-color: rgba(72, 4, 99, 0.76);
+    background-blend-mode: luminosity;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-interior {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 85%;
+    width: 55%;
+    min-width: 375px;
+    max-width: 1100px; 
+    background-color: rgba(236, 236, 236, 0.945);
+    border-radius: 1em;
+    border: 6px solid rgb(211, 112, 178);
+    padding: 2em 4em;
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 2.25em;
+    color: #3d3d3d;
+    margin-bottom: 0.5em;
+}
+
+.input-tarea {
+    padding: 0.5em 1em;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.boton {
+    width: 10em;
+    height: 3em;
+    margin: 0.5em;
+    background-color: rgb(28, 150, 133);
+    color: white;
+    border-radius: 0.5em;
+}
+
+.boton:hover {
+    transition: 200ms;
+    background-color: rgb(61, 182, 166);
+    cursor: pointer;
+    box-shadow: 4px 2px 5px rgb(187, 187, 187);
+}
+
+.lista-tareas {
+width: 100%;
+}
+
+.tarea {
+    background-color: rgb(120, 88, 128);
+    padding: 0.5em 1em;
+    margin-bottom: 0.5em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarea.completada {
+    text-decoration: line-through;
+    background-color: rgb(56, 56, 56);
+}
+
+.iconos {    
+display: flex;
+flex-direction: row;
+gap: 0.3em;
+}
+
+.icono-completar {
+    color:rgb(10, 209, 159);   
+}
+.icono-completar:hover {
+    color:rgb(101, 223, 192);   
+}
+
+.icono-eliminar {
+    color: #da7e7e;
+}
+.icono-eliminar:hover {
+    color: #ffb4b4;
+}

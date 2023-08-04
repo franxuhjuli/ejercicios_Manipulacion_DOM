@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+main { 
+    height: 100vh;
+    background-image: url(images/libros.jpg);
+    background-size: cover;
+    background-color: rgb(114, 1, 219);  
+    background-blend-mode:luminosity;
+}
+
+.centrar-contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor {
+    height: 60%;
+    width: 65%;
+    background-color: rgba(230, 230, 230, 0.945);
+    
+    border-radius: 1em;
+    border: 6px solid blueviolet;
+justify-content: space-around;
+}
+
+.contenedor-cita {
+    width: 80%;
+    max-height: 90%;
+}
+h1 {
+    font-weight: 600;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4b4a4a;
+}
+
+button {
+    padding: 1em 2em;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 0.5em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: rgb(163, 100, 221);
+    cursor: pointer;
+}
+
+.texto-cita {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: rgb(99, 14, 138)
+}
+
+.texto-autor {
+    font-size: 1.2em;
+    color: #4b4a4a;
+    margin: 1em 0 0;
+}
